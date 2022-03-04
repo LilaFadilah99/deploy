@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />
+  <!-- Akhir Bootsrap Icons -->
+  <title>Wersion</title>
+  <link rel="stylesheet" href="/assets/css/landing.css" />
+</head>
+
+<body id="home">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+    <div class="container-fluid py-2">
+      <a class="navbar-brand ps-4 fs-3" style="color: #f23a3a" href="#">
+        <img src="/assets/image/download.jpg" alt="" width="30" height="30"
+          class="d-inline-block align-text-top mt-1" />
+        Wersion
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ps-5 fw-bolder">
+          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          <a class="nav-link" href="products.html" target="_blank">Product</a>
+          <a class="nav-link" href="pricing.html" target="_blank">Pricing</a>
+          <a class="nav-link" href="https://wa.me/6285338868750" target="_blank">Contack Us</a>
+          <li class="scroll-to-section" onclick="logout()">
+            <div class="main-red-button-hover"><a href="/index.html">Logout</a></div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Akhir Navbar -->
+
+  <!-- carousel -->
+  <section class="d-none d-lg-block">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- item 1 -->
+        <div class="carousel-item active">
+          <img src="/assets/image/cr-2 (1).jpg" class="d-block w-100" alt="wersion 1" />
+          <div class="carousel-caption d-none d-md-block">
+            <div class="jumbotron mx-auto pb-5" style="color: white">
+              <h1 class="display-4 fw-bold">Wersion</h1>
+              <h2>Jasa Content Creator Profesional</h2>
+              <h3 class="lead">
+                Saatnya beralih ke strategi pemasaran terkini di internet! Meningkatkan <br />
+                bisnis, popularitas dan kepercayaan melalui media sosial <br />
+              </h3>
+              <br />
+              <p class="lead">
+                <a class="btn" href="../Products-page/products.html " target="_blank" role="button">Selengkapnya</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- item 2 -->
+        <div class="carousel-item">
+          <img src="/assets/image/cr-2 (2).jpg" class="d-block w-100" alt="wersion 2" />
+          <div class="carousel-caption d-none d-md-block">
+            <id class="text-start pb-5" style="color: white">
+              <h1 class="display-4 fw-bold">
+                Buat Konten Anda <br />
+                Dari Mana Saja
+              </h1>
+              <h3 class="lead">
+                Wersion memberikan kemudahan untuk menggunakan layanan creator <br />
+                handal dimanapun anda berada.
+              </h3>
+              <br />
+              <p class="lead">
+                <a class="btn" href="../Products-page/products.html" target="_blank" role="button">Bergabung</a>
+              </p>
+            </id>
+          </div>
+        </div>
+        <!-- item 3 -->
+        <div class="carousel-item">
+          <img src="/assets/image/Carousel-(1).jpg" class="d-block w-100" alt="wersion 2" />
+          <div class="carousel-caption d-none d-md-block">
+            <id class="mx-auto pb-5" style="color: white">
+              <h1 class="display-4 fw-bold">Pesan Sekarang</h1>
+              <h3>Bebas berkonsultasi dengan tim profesional</h3>
+              <p>Layanan 24 jam akan mebantu pekerjaan anda selesai dengan waktu singkat dengan hasil memuaskan.</p>
+              <br />
+              <p class="lead">
+                <a class="btn" href="../Pricing-page/pricing.html" target="_blank" role="button">Selengkapnya</a>
+              </p>
+            </id>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- akhir carousel -->
+  <!-- Pelayanan Kami -->
+  <section id="our service">
+    <div class="container">
+      <div class="row text-center mb-lg-5 py-lg-5 py-3">
+        <div class="col pt-4">
+          <br>
+          <br>
+          <br>
+          <h2 class="">PELAYANAN KAMI</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center" data-aos="fade-down">
+        <div class="col-md-3 mb-3">
+          <div class="card">
+
+            <div class="card-body text-center">
+              <h1 class="card-title"><i class="bi bi-lock-fill" style="color: #F23A3A"></i></h1>
+              <h4 class="card-subtitle mb-2 text-muted">Data Aman</h4>
+              <p class="card-text">
+                Seluruh data pelanggan akan dikelola secara aman dan dilindungi secara ketat.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card">
+
+            <div class="card-body text-center">
+              <h1 class="card-title"><i class="bi bi-calendar-check-fill" style="color: #F23A3A"></i></h1>
+              <h4 class="card-subtitle mb-2 text-muted">Proses Cepat</h4>
+              <p class="card-text">
+                Proses sangat cepat dan instant, dibandingkan harus melakukan marketing bulanan sendiri.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card">
+
+            <div class="card-body text-center">
+              <h1 class="card-title"><i class="bi bi-telephone-inbound-fill" style="color: #F23A3A"></i></h1>
+              <h4 class="card-subtitle mb-2 text-muted">CS Support</h4>
+              <p class="card-text">
+                Dengan dukungan sistem pemesanan yang aktif 24 jam seminggu, mudah dan otomatis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card">
+
+            <div class="card-body text-center">
+              <h1 class="card-title"><i class="bi bi-graph-up-arrow" style="color: #F23A3A"></i></h1>
+              <h4 class="card-subtitle mb-2 text-muted">Tim Creator Handal</h4>
+              <p class="card-text">
+                Dikerjakan oleh tim yang ahli di berbagai bidang, seperti industri makanan, teknologi, layanan & jasa.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <!-- akhir Pelayanan Kami -->
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center  mt-1 mb-2">
+        <div class="col pt-2 pb-5">
+
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-center mx-3">
+        <h2 class="pb-5 pt-3 mb-5">TEMUKAN PRODUK KAMI</h2>
+
+        <div class="col-md-6 text-start pb-4 mb-3">
+          <h2>About Us</h2>
+          <p>
+            Wersion adalah Digital Agency yang fokus pada layanan optimasi dan desain sosial media dan segala keperluan
+            desain untuk kebutuhan Branding. Kami menyediakan berbagai penawaran, mulai dari jasa desain flyer, brosur,
+            logo, poster, social media management (Desain feed instagram, desain instagram stories, riset hashtag,
+            copywriting).</p>
+        </div>
+        <div class="col-md-6 pb-4 mb-3">
+          <img src="/assets/image/bg img.jpg" class="img-fluid" alt="projek 1">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir About -->
+  <!-- Cara Kerja -->
+  <section id="Process" style="background-color: #f5f0f0;">
+    <div class="container">
+      <div class="row text-center mt-2 mb-5">
+        <div class="col pt-1">
+
+        </div>
+      </div>
+      <div class="row justify-content-center" data-aos="fade-down" data-aos-offset="50">
+        <div class="col-md-5 mb-3 pb-5">
+          <div class="card">
+            <img src="/assets/image/work.jpg" class="card-img-top" alt="project 1" />
+            <div class="card-body">
+              <h4 class="card-text text-center">
+                We Are Your Solution
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 mb-3">
+          <div class="card">
+
+            <div class="card-body">
+              <h5 class="card-title">Cara Kerja Wersion</h5>
+
+              <p class="card-text"><i class="bi bi-bag-check-fill"></i>
+                Pilih Layanan</p>
+              <p class="card-text"><i class="bi bi-pen-fill"></i>
+                Isi Detail Pekerjaan</p>
+              <p class="card-text"><i class="bi bi-chat-left-text-fill"></i>
+                Tim Kami Akan Menghubungi Anda</p>
+              <p class="card-text"><i class="bi bi-reception-4"></i>
+                Pengerjaan</p>
+              <p class="card-text"><i class="bi bi-check-square-fill"></i>
+                Pekerjaan Selesai</p>
+              <p class="card-text fw fw-bold"> Pesanan Akan Langsung Diproses Setelah Menyelesaikan Pembayaran </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Akhir Cara Kerja -->
+
+  <!-- Jangkauan -->
+  <section id="jangkauan" style="background-color: #faf7f7;">
+    <div class="container-fluid py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <h1>JANGKAUAN YANG LUAS</h1>
+          </div>
+        </div>
+
+        <div class="row justify-content-center py-5">
+          <div class="col-md-1 col-1 col-sm-12 text-sm-center text-md-start text-center col-12">
+            <h1 class="fw-bold">12.3</h1>
+            <h5>Juta</h5>
+          </div>
+
+          <div class="col-md-auto pt-md-1  col-auto ms-md-4 text-md-start text-md-start text-center col-sm-12">
+            <h5>Orang yang tergabung bersama Wersion <br> dan masih terus bertambah</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Akhir jangkauan -->
+
+  <!-- Tren -->
+  <div id="trendi" class="container-fluid py-5" style="background-color: #f5f0f0;">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h1>TREN, BERITA DAN IDE KREATIF</h1>
+          <br>
+          <h5>Bergabung Bersama Kami</h5>
+          <br>
+        </div>
+      </div>
+
+      <div class="row text-center ">
+        <div class="col-12">
+          <h1><a href="https://www.instagram.com/lilaff___/" target="_blank" style="color: #4064ac;"><i
+                class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/lilaff___/" target="_blank" style="color: #e53c5f;"><i
+                class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/lilaff___/" target="_blank" style="color: #0077b0;"><i
+                class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/lilaff___/" target="_blank" style="color: #1c9ceb;"><i
+                class="bi bi-twitter"></i></a>
+            <a href="https://www.instagram.com/lilaff___/" target="_blank" style="color: #f20000;"><i
+                class="bi bi-youtube"></i></a></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Akhir tren -->
+
+  <!-- Deskripsi Perusahaan -->
+  <section id="deskripsi" style="background-color: #faf7f7;">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <br><br><br><br>
+          <h1 style="color: #F23A3A;"><i class="bi bi-quote"></i></h1>
+          <br>
+          <h4>Salah satu agency jasa instant desain dan social media marketing terbaik <br>
+            di Indonesia yang sudah dipercaya lebih dari 12.000.000 klien saat ini! baik perusahaan, <br>
+            brand/merk, bisnis, public figure maupun akun pribadi.</h4>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <a class="btn" href="../Products-page/products.html" target="_blank" role="button">Lihat Produk</a>
+          <br><br><br><br><br>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir deskripsi perusahaan -->
+
+  <!-- Sertifikat dan penghargaan -->
+  <section id="tingkatkan-bisnis">
+    <div class="container-fluid py-5" style="background-color: #faf7f7">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>SERTIFIKAT DAN PENGHARGAAN</h1>
+            <p>Kepercayaan yang diberikan kepada wersion</p>
+            <br><br>
+          </div>
+        </div>
+        <!-- row 1 -->
+        <div class="row py-5">
+          <div class="col-md-2 mb-md-3 col-12  text-start px-md-0">
+            <img src="/assets/image/s1.png" alt="" />
+          </div>
+          <div class="col-md-4 pt-3 col-12  text-start px-md-5 px-lg-0">
+            <h5 class="fw-bold">PT. Telkom Indonesia</h5>
+            <h6>Best Digital Creator 2022</h6>
+            <p>Kerjasama creator nasional dalam wejudkan indonesia melek media</p>
+          </div>
+          <div class="col-md-2 mb-md-3 col-12  text-start px-md-0 px-lg-0">
+            <img src="/assets/image/s2.png" alt="" />
+          </div>
+          <div class="col-md-4 pt-3 col-12  text-start px-md-5 px-lg-0">
+            <h5 class="fw-bold">Otoritas Jasa Keuangan</h5>
+            <h6>Inovator Digital Milenial</h6>
+            <p>Pelopor inovasi konten digital milenial dan pendiri sekoah kreatif 2021</p>
+          </div>
+        </div>
+        <!-- row2 -->
+        <div class="row">
+          <div class="col-md-2 mb-md-3 col-12  text-start px-md-0">
+            <img src="/assets/image/s3.png" alt="" />
+          </div>
+          <div class="col-md-4 pt-3 col-12  text-start px-md-5 px-lg-0">
+            <h5 class="fw-bold">Mister Aladin</h5>
+            <h6>Best Content Creator Partner</h6>
+            <p>Kerjasama konten perjalanan dan pariwisata nasional Indoensia 2020</p>
+          </div>
+          <div class="col-md-2 mb-md-3 col-12  text-start px-md-0">
+            <img src="/assets/image/s4.png" alt="" />
+          </div>
+          <div class="col-md-4 pt-3 col-12  text-start px-md-5 px-lg-0">
+            <h5 class="fw-bold">XL Axiata</h5>
+            <h6>Creative Content Promotor</h6>
+            <p>Konten promosi XL Axiata digital and media 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sertifikat dan penghargaan -->
+
+  <!-- Keanggotaan -->
+  <!-- <div class="container-fluid py-5 " style="background-color: #faf7f7;">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <br><br>
+            <h1>KEANGGOTAAN</h1>
+
+          </div>
+        </div>
+
+        <div class="row mt-4 pt-3 mb-3">
+          <div class="col-md-2 col-4 col-lg-4 mb-3">
+            <img src="/assets/image/Carousel-(1).jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-4 col-lg-4 mb-3">
+            <img src="/assets/image/Carousel-(1).jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-4 col-lg-4 mb-3">
+            <img src="/assets/image/Carousel-(1).jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-4 col-lg-4 mb-3">
+            <img src="/assets/image/Carousel-(1).jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-4 col-lg-4 mb-3">
+            <img src="/assets/image/Carousel-(1).jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-2 col-4 col-lg-4 mb-3">
+            <img src="/assets/image/Carousel-(1).jpg" alt="" class="img-fluid">
+            <br><br><br><br><br>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  <!-- Akhir Keanggotaan -->
+
+  <!-- Footer -->
+  <div id="footer" class="container-fluid py-5" style="background-color: #e42e2c;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div id="footer-target" class="col-md-8 col-sm-6 text-md-start text-lg-start text-center col-sm-12">
+          <a href="#">Wersion Sign In</a> <br>
+          <a href="#">Daftar</a> <br>
+          <a href="../Products-page/products.html" target="_blank">Layanan Kami</a> <br>
+          <a href="#about">Tentang Kami</a> <br>
+          <a href="../Products-page/products.html" target="_blank">Produk</a> <br>
+          <a href="https://wa.me/6285338868750" target="_blank">Konsultasi</a> <br>
+          <a href="https://wa.me/6285338868750" target="_blank">Hubungi Kami</a>
+        </div>
+
+        <div class="col-md-3 col-sm-6 offset-lg-md-1 text-md-start text-lg-start text-center col-sm-12">
+          <p class="fw-bold">Wersion Digital Agency</p>
+          <p>Jl. Lintas Sumbawa No. 12A <br> Sumbawa Besar 83371 - Indonesia <br> digital@wersion.id</p>
+          <a><i class="bi bi-whatsapp"></i></a>
+          <a href="https://wa.me/6285338868750" target="_blank" id="alamat"> +62 85338868750</a> <br> <br>
+          <a href="https://www.instagram.com/lilaff___/" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/lilaff___/" target="_blank"></i>&emsp;<i class="bi bi-twitter"></i></a>
+          <a href="https://www.instagram.com/lilaff___/" target="_blank"> </i>&emsp;<i class="bi bi-linkedin"></i></a>
+          <a href="https://www.instagram.com/lilaff___/" target="_blank"></i>&emsp;<i class="bi bi-instagram"></i></a>
+          <a href="https://www.instagram.com/lilaff___/" target="_blank"> </i>&emsp;<i class="bi bi-youtube"></i></a>
+
+          <br><br>
+        </div>
+      </div>
+
+
+      <div class="row justify-content-start ms-md-4 text-md-start text-lg-start text-center">
+        <div class="col-12 col-sm-12">
+          <p>© Hak Cipta 2022 Wersion Digital Agency - Semua Hak Dilindungi</p>
+        </div>
+
+
+      </div>
+    </div>
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
